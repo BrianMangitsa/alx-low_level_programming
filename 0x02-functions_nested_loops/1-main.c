@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - check the code for Holberton School students.
+* main - check the code for ALX ool students.
 *
 * Return: Always 0.
 */
