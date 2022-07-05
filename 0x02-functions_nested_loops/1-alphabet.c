@@ -1,10 +1,10 @@
-#include "function_dec.h"
+#include "main.h"
 /**
- * print_alphabet - Entry point function
- *
- * Description: Prints the alphabet using a library followed by a new line.
- * Return: 0
- */
+* print_alphabet - Entry point function
+*
+* Description: Prints the alphabet using a library followed by a new line.
+* Return: 0
+*/
 void print_alphabet(void)
 {
 
@@ -14,7 +14,7 @@ void print_alphabet(void)
 	while (i < 26)
 	{
 		_putchar(alphabet[i]);
-												i++;
-											}
+		i++;
+	}
 	_putchar('\n');
 }
