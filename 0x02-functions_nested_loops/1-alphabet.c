@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "function_dec.h"
 /**
  * print_alphabet - Entry point function
  *
