@@ -1,20 +1,25 @@
 #include "main.h"
 /**
-* print_alphabet - Entry point function
+* print_alphabet_x10 - Entry point to the loops
 *
-* Description: Prints the alphabet using a library followed by a new line.
+* Description: Prints the alphabetx10 using a library followed by a new line.
 * Return: 0
 */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
+	int j;
 
-	while (i < 26)
+	while (i < 10)
 	{
-		_putchar(alphabet[i]);
-		i++;
-	}
-	_putchar('\n');
+		j = 0;
+		while (j < 26)
+		{															_putchar(alphabet[j]);
+																	j++;
+																}
+																_putchar('\n');
+																i++;
+															}
 }
